@@ -13,4 +13,7 @@ function retrieveEmployeeInformation(){
   return input.value
 }
 
-function addNewElementAsLi(employeeInfo)
+function addNewElementAsLi(employeeInfo) {
+  // add to li element
+  $(".employee-list")
+}
