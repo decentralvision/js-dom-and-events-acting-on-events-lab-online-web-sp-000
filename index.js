@@ -13,7 +13,7 @@ function retrieveEmployeeInformation(){
   return input.value
 }
 
-function addNewElementAsLi(employeeInfo) {
+function addNewElementAsLi(retrieveEmployeeInformation)_) {
   let li = document.createElement('li')
   li.innerHtml = employeeInfo
   document.querySelector(".employee-list").append(li)
