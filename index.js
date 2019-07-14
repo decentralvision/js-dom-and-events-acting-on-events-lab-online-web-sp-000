@@ -17,3 +17,11 @@ function addNewElementAsLi() {
   let employeeName = retrieveEmployeeInformation()
   document.querySelector('.employee-list').insertAdjacentHTML('beforeend', `<li>${employeeName}</li>`)
 }
+
+function addNewLiOnClick(){
+  let submit = document.querySelector('input[type="submit"]')
+  submit.addEventListener('click', function(event){
+    addNewElementAsLi()
+    resetInput()
+  })
+}
