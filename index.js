@@ -14,6 +14,6 @@ function retrieveEmployeeInformation(){
 }
 
 function addNewElementAsLi(employeeInfo) {
-  let li =
+  let li = document.createElement('li')
   $(".employee-list").append(li)
 }
