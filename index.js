@@ -16,5 +16,5 @@ function retrieveEmployeeInformation(){
 function addNewElementAsLi(employeeInfo) {
   let li = document.createElement('li')
   li.innerHtml = employeeInfo
-  $(".employee-list").append(li)
+  document.querySelector(".employee-list").append(li)
 }
